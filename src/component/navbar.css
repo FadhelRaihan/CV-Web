@@ -1,0 +1,62 @@
+nav {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.kiri {
+    margin-left: 50px;
+}
+
+.kiri a {
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+}
+
+.kiri a h1 {
+    font-weight: 600;
+}
+
+.kanan {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.kanan a {
+    font-size: x-large;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.kanan a:hover {
+    color: grey;
+}
+
+.kanan p {
+    font-size: xx-large;
+}
+
+@media screen and (max-width: 768px) {
+    .kiri {
+        margin-left: 20px;
+        width: 20%;
+    }
+
+    .kiri a {
+        font-size: large;
+    }
+
+    .kanan {
+        margin-right: 20px;
+    }
+
+    .kanan a {
+        font-size: large;
+    }
+}
