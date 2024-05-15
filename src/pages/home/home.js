@@ -11,7 +11,7 @@ function Home() {
                 <Navbar />
             </header>
 
-            <main>
+            <div className="mainHome">
                 <div className="kiriHome">
                     <img className="animate__animated animate__fadeInUp" src={FotoPas} alt="FotoPas" />
                 </div>
@@ -21,11 +21,11 @@ function Home() {
                     <h2 className="animate__animated animate__fadeInUp">a little about me</h2>
                     <p className="animate__animated animate__fadeInUp">I am a front end developer studying software engineering, browse my cv website to know more about me.</p>
                     <div className="pilihan">
-                        <a href="/" className="animate__animated animate__fadeInUp"><h3>Resume</h3></a>
+                        <a href="/resume" className="animate__animated animate__fadeInUp"><h3>Resume</h3></a>
                         <a href="/" className="animate__animated animate__fadeInUp"><h3>Contact</h3></a>
                     </div>
                 </div>
-            </main>
+            </div>
 
             <div>
                 <Footer />
